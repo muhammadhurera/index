@@ -37,4 +37,4 @@ jobs:
       run: npm install -g surge
       
     - name: deploying on surge
-      run: surge ./build http://holistic-plants.surge.sh/ --token ${{secrets.new_token}}
+      run: surge ./build holistic-plants.surge.sh --token ${{secrets.new_token}}
